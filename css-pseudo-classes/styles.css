@@ -4,7 +4,7 @@ button:hover {
   cursor: pointer;
 }
 
-th:nth-child(-n + 3) {
+th {
   color: white;
   background-color: black;
 }
