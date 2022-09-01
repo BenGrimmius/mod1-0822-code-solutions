@@ -1,0 +1,71 @@
+h2 {
+  text-align: center;
+  font-size: medium;
+  font-family: "Brandon Grotesque", sans-serif;
+  color: #eb8526;
+}
+
+body {
+  font-family: "Brandon Grotesque", sans-serif;
+}
+
+form {
+  text-align: center;
+}
+
+#engineers {
+  padding: 5px 255px 5px 5px;
+}
+
+#email,
+#name,
+#where {
+  padding-right: 200px;
+  padding-left: 5px;
+}
+
+div {
+  padding-bottom: 7px;
+}
+
+div.engineers,
+div.email,
+div.name,
+div.where {
+  text-align: left;
+}
+
+section {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+button {
+  margin-top: 10px;
+  border-radius: 0.75rem;
+  color: white;
+  background-color: #eb5126;
+  border: none;
+  padding: 5px;
+  margin-right: 30px;
+}
+
+div.button {
+  text-align: right;
+}
+
+label {
+  font-size: x-small;
+  margin-left: 5px;
+}
+
+select,
+option {
+  font-size: x-small;
+  background-color: rgb(234 234 234);
+}
+
+input {
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
