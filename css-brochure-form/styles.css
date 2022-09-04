@@ -57,6 +57,7 @@ button {
 div.button {
   text-align: right;
   align-items: flex-end;
+  margin-left: 310px;
 }
 
 label {
