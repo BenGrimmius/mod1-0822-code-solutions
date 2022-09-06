@@ -47,8 +47,9 @@ img {
 }
 
 .column-one-eighth-wrap {
-  padding-top: 15px;
-  flex-basis: calc(100% / 8);
+  padding-top: 25px;
+  width: 125px;
+  height: 125px;
   text-align: center;
   margin-top: 10px;
   border: 2px solid gray;
