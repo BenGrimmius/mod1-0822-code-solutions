@@ -8,6 +8,17 @@
   justify-content: center;
 }
 
+button {
+  margin-top: 50px;
+  padding: 7px 35px;
+  border: 2px solid rgb(235 121 7);
+  color: rgb(235 121 7);
+  background-color: white;
+  font-family: Karla, sans-serif;
+  font-weight: bold;
+  font-size: smaller;
+}
+
 img {
   width: 150%;
 }
