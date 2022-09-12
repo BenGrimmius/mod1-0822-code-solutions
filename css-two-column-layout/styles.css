@@ -1,0 +1,71 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin-top: 50px;
+  padding: 7px 35px;
+  border: 2px solid rgb(235 121 7);
+  color: rgb(235 121 7);
+  background-color: white;
+  font-family: Karla, sans-serif;
+  font-weight: bold;
+  font-size: smaller;
+}
+
+img {
+  width: 150%;
+}
+
+h1 {
+  font-family: Karla, sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+h3 {
+  font-family: Karla, sans-serif;
+  font-weight: 700;
+  color: rgb(88 88 88);
+  padding-right: 20px;
+}
+
+p {
+  font-family: Karla, sans-serif;
+  color: gray;
+  padding-right: 60px;
+}
+
+p.header {
+  font-family: Karla, sans-serif;
+  font-weight: 400;
+  color: gray;
+  text-align: center;
+  font-size: smaller;
+  margin-bottom: 30px;
+  padding-right: 0;
+}
+
+div.column-seven-eights {
+  padding-left: 40px;
+}
+
+.row-body {
+  display: flex;
+}
+
+.column-one-half {
+  width: calc(100% / 2);
+  display: flex;
+}
+
+.column-image {
+  width: 50%;
+  margin-right: 25px;
+}
