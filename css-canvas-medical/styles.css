@@ -161,3 +161,17 @@
 .avenir {
   font-family: Avenir, sans-serif;
 }
+
+.logo-blue {
+  width: 150px;
+}
+
+.logo-white {
+  width: 100px;
+  padding-top: 60px;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
