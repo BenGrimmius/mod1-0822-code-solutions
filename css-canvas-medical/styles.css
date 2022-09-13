@@ -1,0 +1,148 @@
+.container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.col-full {
+  flex-basis: 100%;
+}
+
+.col-half {
+  flex-basis: 50%;
+}
+
+.pl-50 {
+  padding-left: 50px;
+}
+
+.pl-100 {
+  padding-left: 100px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.blue-link {
+  color: white;
+  background-color: rgb(60 75 138);
+  border-radius: 0.2rem;
+  padding: 15px 10px;
+}
+
+.get-started {
+  color: white;
+  background-color: rgb(60 75 138);
+  padding: 10px 15px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-50px {
+  margin-top: 50px;
+}
+
+.ml-20px {
+  margin-left: 20px;
+}
+
+.ml-40px {
+  margin-left: 40px;
+}
+
+.width-40 {
+  width: 40%;
+}
+
+.border-bottom {
+  border-bottom: solid 1px rgb(192 192 192);
+}
+
+.title {
+  color: rgb(61 76 139);
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  src: url("TiemposHeadline-LightItalic.woff2") format("woff2");
+}
+
+.hero-image {
+  width: 900px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+  filter: grayscale(20%);
+  filter: brightness(90%);
+}
+
+.absolute {
+  position: absolute;
+}
+
+.white-text {
+  color: white;
+  font-family: Avenir, sans-serif;
+  filter: brightness(100%);
+}
+
+.gray-text {
+  color: gray;
+}
+
+.gray-background {
+  background-color: rgb(249 249 249);
+}
+
+.dark-gray-background {
+  background-color: rgb(98 98 98);
+}
+
+.center {
+  text-align: center;
+}
+
+.align-right-button {
+  margin-left: 70%;
+  margin-top: 10%;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.col-one-fourth {
+  flex-basis: calc(100% / 4);
+}
+
+.tiempos-headline {
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.avenir {
+  font-family: Avenir, sans-serif;
+}
