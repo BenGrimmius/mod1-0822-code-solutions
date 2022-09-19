@@ -1,0 +1,50 @@
+* {
+  font-family: Barlow, sans-serif;
+  background-color: #f7f8fa;
+}
+
+.container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.col-full {
+  flex-basis: 100%;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.col-one-fourth {
+  width: 25%;
+  text-align: center;
+  margin: 5px 10px;
+}
+
+img.phone {
+  width: 100%;
+}
+
+img.icon {
+  width: 25%;
+}
+
+h3,
+p {
+  font-size: small;
+  width: 100%;
+}
+
+p {
+  margin-top: 30px;
+}
