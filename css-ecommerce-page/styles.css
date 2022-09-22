@@ -25,6 +25,12 @@
 
 img {
   width: 100%;
+  object-fit: contain;
+}
+
+div.image {
+  background-image: url("images/lv-bag.jpg");
+  background-size: cover;
 }
 
 .fade {
