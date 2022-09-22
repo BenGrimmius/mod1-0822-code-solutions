@@ -10,6 +10,8 @@
 function isUnderFive(number) {
   if (number < 5) {
     return true;
+  } else {
+    return false;
   }
 }
 
@@ -56,7 +58,7 @@ function isOldEnoughToDrinkAndDrive(person) {
 }
 
 function categorizeAcidity(ph) {
-  if (ph < 7) {
+  if (ph < 7 && ph >= 0) {
     return 'acid';
   } else if (ph === 7) {
     return 'neutral';
