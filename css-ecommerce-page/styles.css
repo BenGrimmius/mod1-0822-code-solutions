@@ -1,0 +1,51 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.col-full {
+  text-align: center;
+}
+
+.col-one-fifth {
+  width: 20%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
+}
+
+div.image {
+  background-image: url("images/lv-bag.jpg");
+  background-size: cover;
+}
+
+.fade {
+  color: rgb(210 210 210);
+}
+
+span.fade {
+  font-size: 10px;
+  padding-left: 5px;
+}
+
+b {
+  font-size: 0.7rem;
+}
+
+.hilit {
+  background-color: #faece2;
+}
