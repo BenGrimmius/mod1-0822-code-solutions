@@ -21,6 +21,7 @@ h2 {
 
 .incorrect {
   color: red;
+  border-bottom: solid red 5px;
 }
 
 .next {
