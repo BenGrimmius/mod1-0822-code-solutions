@@ -1,0 +1,29 @@
+* {
+  font-family: "Marker Felt", sans-serif;
+}
+
+body {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  display: flex;
+  font-size: 50px;
+  white-space: pre;
+}
+
+.correct {
+  color: rgb(3 176 3);
+}
+
+.incorrect {
+  color: red;
+  border-bottom: solid red 5px;
+}
+
+.next {
+  border-bottom: solid black 5px;
+}
